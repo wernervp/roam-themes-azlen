@@ -50,7 +50,7 @@ h1.rm-title-display, .rm-title-textarea {
 div,
 textarea, a {
     font-family: var(--body-font) !important;
-    color: var(--text-color) !important;
+    color: var(--url-text-color) !important;
 }
 .bp3-popover {
     color: var(--color-secondary-contrast) !important;
