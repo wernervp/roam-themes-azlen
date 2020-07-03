@@ -38,10 +38,9 @@ h1.rm-title-display, .rm-title-textarea {
 /* query */
 .rm-query .rm-query-title {
     color: var(--primary-color);
-    background-color: var(--bg-color);
+    background-color: var(--bg-color-query-title);
     padding: var(--s1);
 }
-
 /* ---------------------------------------------------- */
 
 .bp3-button.bp3-minimal:hover {
