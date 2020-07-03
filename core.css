@@ -82,8 +82,8 @@ textarea, a {
 }
 
 .rm-page-ref-tag {
-    color: var(--color-primary-contrast) !important;
-    background-color: rgb(var(--color-primary));
+    color: var(--color-tag-contrast) !important;
+    background-color: rgb(var(--color-tag));
     padding: 1px 6px;
     border-radius: 4px;
 }
@@ -173,7 +173,7 @@ textarea, a {
     width: unset !important;
     max-width: 100% !important;
     height: 100%;
-    
+
     overflow-x: scroll;
     overflow-y: hidden;
     margin: auto;
@@ -204,7 +204,7 @@ textarea, a {
     /*overflow-y: auto !important;*/
     max-height: 100vh;
     padding: 50px 0px 100px 0px;
-    
+
     /* pesky bottom border/outline in chrome won't go away! */
     /* this does not fix it */
     border: none !important;
@@ -258,7 +258,7 @@ textarea, a {
     margin: auto !important;
     width: 20px !important;
     text-align: center;
-    
+
 }
 
 /* when collapsed, hide all icons but `expand` and `close` */
@@ -373,18 +373,18 @@ textarea, a {
 .roam-topbar {
     opacity: 1 !important;
     background-color: transparent !important;
-    
+
     margin-top: 70px;
     width: 20px;
     display: inline-block;
     padding-left: 0 !important;
     position: relative !important;
-    
+
     position: sticky !important;
     left: 0px;
     transition: none !important;
     z-index: 999;
-    
+
     border: none !important;
 }
 .roam-sidebar-container > .roam-sidebar-content::before {
@@ -445,7 +445,7 @@ textarea, a {
 }
 .roam-sidebar-content > .flex-h-box > * {
     pointer-events: auto;
-} 
+}
 .roam-sidebar-content > .flex-h-box ~ * {
     pointer-events: all;
 }
@@ -461,7 +461,7 @@ textarea, a {
     height: 1px !important;
     align-items: start !important;
     text-align: center;
-    
+
     position: -webkit-sticky !important;
     position: sticky !important;
     left: 0px;
@@ -763,7 +763,7 @@ body > .bp3-portal .bp3-text-small {
 .roam-center svg > g > rect[style*="stroke: red"] + foreignObject,
 #roam-right-sidebar-content > div svg > g > rect[style*="stroke: red"] + foreignObject{
     border-color: rgb(var(--color-secondary));
-    
+
 }
 
 .roam-center svg > g > rect[style*="rgba"] + foreignObject,
@@ -943,7 +943,7 @@ body > .bp3-portal .bp3-text-small {
     /*margin-bottom: 8px;*/
     /* fix positioning when rotated 90 deg */
     /*transform-origin: 9px 13px;*/
-    
+
 }
 
 /* */
@@ -1018,7 +1018,7 @@ code {
 .block-border-left {
     border-color: var(--bullet-color);
   }
-  
+
 
 /* help button / popup */
 #buffer {
@@ -1041,7 +1041,7 @@ code {
 }
 #buffer > div .bp3-button::before {
     color: #FFFFFF !important;
-    
+
 }
 #buffer .help-title {
     color: var(--color-secondary-contrast) !important;
@@ -1149,7 +1149,7 @@ code {
     width: 100px;
     border-radius: 200px;
     margin: auto;
-    
+
 }
 
 .loading-astrolabe {
@@ -1236,7 +1236,7 @@ code {
         width: 100%; height: 100%;
         background-color: var(--bg-color) !important;
         opacity: 0.7;
-        
+
     }
     .roam-topbar > .flex-h-box {
         flex-direction: row;
@@ -1256,7 +1256,7 @@ code {
     .roam-topbar > div >.bp3-button:first-child {
         position: static !important;
     }
-    
+
     .roam-sidebar-container {
         padding-right: 0;
         width: 232px !important;
@@ -1264,16 +1264,16 @@ code {
     .roam-sidebar-container > .roam-sidebar-content::before {
         right: 0px !important;
     }
-    
+
     .roam-body-main {
         padding-left: 0 !important;
     }
-    
+
     #find-or-create-input {
         max-width: calc(100% - 20px);
         left: 10px !important;
     }
-    
+
     .roam-article,
     .rm-all-pages > .table,
     .rm-all-pages > .table > div {
@@ -1292,8 +1292,8 @@ code {
     .roam-article > div {
         padding: 30px 30px 30px 20px;
     }
-    
-    
+
+
     #roam-right-sidebar-content > div > *{
         max-width: calc(100vw - 20px) !important;
     }
@@ -1313,22 +1313,22 @@ code {
     #roam-right-sidebar-content > div .bp3-icon-minus ~ .bp3-button.bp3-icon-cross {
         top: 60px;
     }
-    
+
     .rm-title-display, .rm-title-textarea {
         margin-left: 0 !important;
     }
     #roam-right-sidebar-content > div .bp3-icon-minus + * {
             margin: 30px 10px 5px 30px !important;
     }
-    
+
     .roam-topbar > div > *:nth-child(2) {
         margin-top: 0 !important;
     }
-    
+
     #right-sidebar {
         padding-right: 10px !important;
     }
-    
+
     .rm-find-or-create-wrapper .bp3-transition-container {
         position: fixed !important;
         max-width: calc(100vw - 20px);
@@ -1362,7 +1362,7 @@ code {
 #rm-mobile-bar .bp3-button {
     vertical-align: top;
     margin: 5px 0px !important;
-    
+
 }
 #rm-mobile-bar .bp3-button::before, #rm-mobile-bar .bp3-button i::before {
     color: var(--color-secondary-contrast) !important;
