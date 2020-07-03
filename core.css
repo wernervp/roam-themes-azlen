@@ -1,5 +1,5 @@
 :root {
-    --main-font-size: 1.0em;
+    --body-font-size: 1.0em;
     --page-width: 616px;
     --page-order: row-reverse;
 }
@@ -7,6 +7,21 @@
 html, body, .roam-app {
     background-color: var(--bg-color) !important;
     overflow: hidden !important;
+}
+
+/* div.roam-block { */
+.roam-block {
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+}
+
+.rm-block-text {
+  /*max-width: 520px;*/
+  /*max-width: 100%; /*RR change: moved to top of sheet for easier configuration*/
+
+/*RR change: Theme body font settings*/
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
 }
 
 /* hide scrollbars */
@@ -47,12 +62,11 @@ h1.rm-title-display, .rm-title-textarea {
     color: var(--text-color) !important;
 }
 
-
 div,
 textarea, a {
     font-family: var(--body-font) !important;
     color: var(--text-color) !important;
-    font-size: var(--main-font-size) !important;
+    font-size: var(--body-font-size) !important;
 }
 .bp3-popover {
     color: var(--color-secondary-contrast) !important;
