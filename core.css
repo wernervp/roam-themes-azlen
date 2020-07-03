@@ -35,6 +35,15 @@ h1.rm-title-display, .rm-title-textarea {
     margin-left: 20px;
 }
 
+/* query */
+.rm-query .rm-query-title {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    padding: var(--s1);
+}
+
+/* ---------------------------------------------------- */
+
 .bp3-button.bp3-minimal:hover {
     background: rgba(var(--color-primary), 0.4) !important;
     color: var(--text-color) !important;
