@@ -1,4 +1,5 @@
 :root {
+    --main-font-size: 1.0em;
     --page-width: 616px;
     --page-order: row-reverse;
 }
@@ -51,6 +52,7 @@ div,
 textarea, a {
     font-family: var(--body-font) !important;
     color: var(--text-color) !important;
+    font-size: var(--main-font-size) !important;
 }
 .bp3-popover {
     color: var(--color-secondary-contrast) !important;
